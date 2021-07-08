@@ -22,7 +22,7 @@ public class Mover : MonoBehaviour
         force += (SelfTransform.up * Time.deltaTime) * 0.1f;
     }
     
-    void LateUpdate()
+    public void LateUpdate()
     {
         if(!isAccelerated)
         {
